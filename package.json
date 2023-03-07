@@ -21,6 +21,10 @@
       {
         "command": "sinanhacia.createMVVM",
         "title": "Create MVVM Folders"
+      },
+      {
+        "command": "sinanhacia.createMVVMWithService",
+        "title": "Create MVVM Folders With Service"
       }
     ],
     "menus": {
@@ -28,6 +32,13 @@
         {
           "title": "Create MVVM Folders",
           "command": "sinanhacia.createMVVM",
+          "contexts": [
+            "context:folder"
+          ]
+        },
+        {
+          "title": "Create MVVM Folders With Service",
+          "command": "sinanhacia.createMVVMWithService",
           "contexts": [
             "context:folder"
           ]
